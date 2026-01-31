@@ -1,0 +1,18 @@
+# Speed of snow accumulation (1.0 = normal Minecraft speed)
+# Higher value = snow covers ground faster.
+snow-speed: 1.0
+
+# Settings for the Nether Biome Fixer (/ww ficks)
+nether-fix:
+  # Should the plugin print a report to the console every 10 minutes?
+  log-to-console: true
+
+# Automatic Winter Timer Settings
+timer:
+  # How long will the pause (in minutes).
+  # 60 means how long after 1 snow the plugin will wait to start 2.
+  interval-minutes: 60
+  
+  # How long the winter lasts (in minutes).
+  # Example: 10 means it snows for 10 minutes, then stops.
+  duration-minutes: 10

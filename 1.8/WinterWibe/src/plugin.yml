@@ -1,0 +1,13 @@
+name: WinterWibe
+version: 1.0
+main: com.winterwibe.WinterWibe
+api-version: 1.21
+commands:
+  ww:
+    description: Enable or disable winter mode globally.
+    usage: /ww <true|false>
+    permission: winterwibe.admin
+permissions:
+  winterwibe.admin:
+    description: Allows toggling winter mode.
+    default: op
