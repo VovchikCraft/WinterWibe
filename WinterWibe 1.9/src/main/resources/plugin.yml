@@ -1,0 +1,13 @@
+name: WinterWibe
+version: 1.9
+main: com.winterwibe.WinterWibe
+api-version: 1.21
+commands:
+  ww:
+    description: Manage winter mode, timers, and tools.
+    usage: /ww <true|false|timer|delsnow|anotherbiometool|anotherbiome>
+    permission: winterwibe.admin
+permissions:
+  winterwibe.admin:
+    description: Allows toggling winter mode and managing commands.
+    default: op

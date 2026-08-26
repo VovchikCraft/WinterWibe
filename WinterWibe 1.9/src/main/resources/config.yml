@@ -1,0 +1,22 @@
+# Speed of snow accumulation (1.0 = normal Minecraft speed)
+# Higher value = snow covers ground faster.
+snow-speed: 1.0
+
+# 2ndSecure ensures chunks are restored even if the server crashes unexpectedly.
+# When enabled and the plugin loads, a 'chunksloadet.txt' file is utilized.
+# It logs every chunk and its original biome before snow starts falling.
+# When winter is turned off (via command or timer), biomes are returned first by RAM,
+# and then fully restored using this file to prevent any chunk corruption.
+# Once returned, chunks are wiped from the file.
+# This slightly slows down the process and need much more disc space but is much safer!
+2ndSecure: true
+
+# Automatic Winter Timer Settings
+timer:
+  # How long will the pause be (in minutes).
+  # 60 means the plugin will wait 60 minutes after a snowstorm to start another.
+  interval-minutes: 60
+
+  # How long the winter lasts (in minutes).
+  # Example: 10 means it snows for 10 minutes, then stops.
+  duration-minutes: 10
